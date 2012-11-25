@@ -1,0 +1,18 @@
+*.iws
+*~
+*.history
+
+# * languages
+src/languages/*/classes_gen
+src/languages/*/classes_gen.caches
+src/languages/*/source_gen
+src/languages/*/source_gen.caches
+src/languages/*/languageModels/structure.history
+
+# -----------------------------------------------------------
+# * solutions
+src/solutions/*/classes_gen
+src/solutions/*/classes_gen.caches
+src/solutions/*/source_gen
+src/solutions/*/source_gen.caches
+
