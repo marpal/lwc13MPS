@@ -5,7 +5,10 @@
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
-    <projectModules />
+    <projectModules>
+      <modulePath path="${project}/languages/ql/ql.mpl" folder="" />
+      <modulePath path="${project}/solutions/QuestionnaireOfLife/QuestionnaireOfLife.msd" folder="" />
+    </projectModules>
     <genConfs />
   </component>
   <component name="ProjectRootManager" version="2" />
