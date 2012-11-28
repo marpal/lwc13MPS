@@ -8,21 +8,29 @@
     // checkbox action: http://www.javascripter.net/faq/alert.htm#top
     // more checkbox action: http://stackoverflow.com/questions/4471401/getting-value-of-html-checkbox-from-onclick-onchange-events
     // global vars: http://snook.ca/archives/javascript/global_variable
-    var hasSoldHouse;
+    // dynamic hiding/showing of HTML content: http://support.microsoft.com/kb/199243
   </script>
-  <form action="demo_form.asp" method="get">
-    Did you sell a house in 2010? <input type="checkbox" name="hasSoldHouse" onClick="window.hasSoldHouse = this.checked; updateDocument()"><br>
-    Did you buy a house in 2010? <input type="checkbox" name="hasBought'House"><br>
-    Did you enter a loan for maintenance/reconstruction? <input type="checkbox" name="hasMaintLoan"/><br>
+  <form action="demo_form.asp" method="get" id="initialForm">
+    <div>
+      <p>Did you sell a house in 2010? <input type="checkbox" name="hasSoldHouse" onClick="window.hasSoldHouse = this.checked; updateDocument()"></p>
+      <p>Did you buy a house in 2010? <input type="checkbox" name="hasBought'House"></p>
+      <p>Did you enter a loan for maintenance/reconstruction? <input type="checkbox" name="hasMaintLoan"/></p>
+      <div style="visibility:hidden" id="if_hasSoldHouse">
+        <p>Price the house was sold for: <input type="text" name="sellingPrice" onChange="window.sellingPrice = parseInt(this.value); updateDocument()" id="sellingPrice"></p>
+        <p>Private debts for the sold house: <input type="text" name="privateDebt" onChange="window.privateDebt = parseInt(this.value); updateDocument()" id="privateDebt"></p>
+      </div>
+      <div style="visibility:hidden" id="calculated_valueResidue">
+        <p>Value residue: <span id="valueResidue_label"></span></p>
+      </div>
+    </div>
     <input type="submit" value="Next">
   </form>
   <script>
     function updateDocument() {
-      // do DOM-dependent updates here
-      if (window.hasSoldHouse) {
-        alert("blaaaaaaa");
-      }
-  }
+      document.getElementById("if_hasSoldHouse").style.visibility = window.hasSoldHouse ? "visible" : "hidden"
+      document.getElementById("valueResidue_label").innerHTML = window.sellingPrice - window.privateDebt;
+      document.getElementById("calculated_valueResidue").style.visibility = (!isNaN(window.sellingPrice) && !isNaN(window.privateDebt)) ? "visible" : "hidden";
+    }
   </script>
 </body>
 </html>
