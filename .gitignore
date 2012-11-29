@@ -1,6 +1,8 @@
 *.iws
 *~
 *.history
+*.class
+*.swp
 
 # * languages
 src/languages/*/classes_gen
