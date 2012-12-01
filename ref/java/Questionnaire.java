@@ -8,29 +8,45 @@ public class Questionnaire {
     gBC.fill = GridBagConstraints.HORIZONTAL;
     JPanel p = new JPanel();
     p.setLayout(new GridBagLayout());
+    gBC.weightx = 0.5;
 
-    for (int i = 0; i < 60; i++) {
-      JLabel label = new JLabel("Hello World " + Integer.toString(i));
-      gBC.weightx = 0.5;
-      gBC.gridx = 0;
-      gBC.gridy = i;
-      p.add(label, gBC);
-      gBC.gridx = 1;
-      p.add(new JLabel("   "));
-      gBC.gridx = 2;
-      p.add(new JTextField("bla"), gBC);
-    }
+    gBC.gridy = 0;
+    gBC.gridx = 0; p.add(new JLabel("Did you sell a house in 2010?"), gBC);
+    gBC.gridx = 1; p.add(new JLabel("   "));
+    gBC.gridx = 2; p.add(new JCheckBox(), gBC);
+
+    gBC.gridy = 1;
+    gBC.gridx = 0; p.add(new JLabel("Did you buy a house in 2010?"), gBC);
+    gBC.gridx = 1; p.add(new JLabel("   "));
+    gBC.gridx = 2; p.add(new JCheckBox(), gBC);
+
+    gBC.gridy = 2;
+    gBC.gridx = 0; p.add(new JLabel("Did you enter a loan for maintenance/reconstruction?"), gBC);
+    gBC.gridx = 1; p.add(new JLabel("   "));
+    gBC.gridx = 2; p.add(new JCheckBox(), gBC);
+
+    gBC.gridy = 3;
+    gBC.gridx = 0;
+    JPanel p2 = new JPanel();
+    p.add(p2, gBC);
+
+    p2.add(new JLabel("Price the house was sold for:"));
+    p2.add(new JLabel("   "));
+    p2.add(new JTextField("bla"));
+
+    p2.add(new JLabel("Private debts for the sold house:"));
+    p2.add(new JLabel("   "));
+    p2.add(new JTextField("bla"));
+
 
     JScrollPane sp = new JScrollPane();
-    System.out.println(p.getPreferredSize());
-   
-    JPanel borderlaoutpanel = new JPanel();
-    sp.setViewportView(borderlaoutpanel);
-    borderlaoutpanel.setLayout(new BorderLayout(0, 0));
-    borderlaoutpanel.add(p, BorderLayout.CENTER);
+    JPanel topPanel = new JPanel();
+    sp.setViewportView(topPanel);
+    //topPanel.setLayout();
+    topPanel.add(p, BorderLayout.CENTER);
 
-    frame.getContentPane().setLayout(new BorderLayout());
-    frame.getContentPane().add(sp, BorderLayout.CENTER);
+    //frame.getContentPane().setLayout(new BorderLayout());
+    frame.getContentPane().add(topPanel);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.pack();
     frame.setVisible(true);
