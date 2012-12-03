@@ -13,17 +13,16 @@
   <form action="demo_form.asp" method="get" id="initialForm">
     <div>
       <p>Did you sell a house in 2010? <input type="checkbox" name="hasSoldHouse" onClick="window.hasSoldHouse = this.checked; updateDocument()"></p>
-      <p>Did you buy a house in 2010? <input type="checkbox" name="hasBought'House"></p>
-      <p>Did you enter a loan for maintenance/reconstruction? <input type="checkbox" name="hasMaintLoan"/></p>
       <div style="visibility:hidden" id="if_hasSoldHouse">
         <p>Price the house was sold for: <input type="text" name="sellingPrice" onChange="window.sellingPrice = parseInt(this.value); updateDocument()" id="sellingPrice"></p>
         <p>Private debts for the sold house: <input type="text" name="privateDebt" onChange="window.privateDebt = parseInt(this.value); updateDocument()" id="privateDebt"></p>
+        <div style="visibility:hidden" id="calculated_valueResidue">
+          <p>Value residue: <span id="valueResidue_label"></span></p>
+        </div>
       </div>
-      <div style="visibility:hidden" id="calculated_valueResidue">
-        <p>Value residue: <span id="valueResidue_label"></span></p>
-      </div>
+      <p>Did you buy a house in 2010? <input type="checkbox" name="hasBought'House"></p>
+      <p>Did you enter a loan for maintenance/reconstruction? <input type="checkbox" name="hasMaintLoan"/></p>
     </div>
-    <input type="submit" value="Next">
   </form>
   <script>
     function updateDocument() {
