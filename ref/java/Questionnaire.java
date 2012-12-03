@@ -74,14 +74,14 @@ public static void main(String[] args) {
   final JPanel block = new JPanel();
   questionnaireWidgets.put("block", block);
   frame.getContentPane().add(createBooleanQuestion("hasSoldHouse", "Did you sell a house in 2010?", questionnaireWidgets, frame));
-  frame.getContentPane().add(createBooleanQuestion("hasBoughtHouse", "Did you buy a house in 2010?", questionnaireWidgets, frame));
-  frame.getContentPane().add(createBooleanQuestion("hasEnteredLoan", "Did you enter a loan for maintenance/reconstruction?", questionnaireWidgets, frame));
-
   block.setLayout(new BoxLayout(block, BoxLayout.PAGE_AXIS));
   block.add(createStringQuestion("houseSoldPrice", "Price the house was sold for:", questionnaireWidgets, frame));
   block.add(createStringQuestion("privateDebts", "Private debts for the sold house:", questionnaireWidgets, frame));
   block.add(createCalculatedValue("valueResidue", "Value residue:", questionnaireWidgets, frame));
   frame.getContentPane().add(block);
+
+  frame.getContentPane().add(createBooleanQuestion("hasBoughtHouse", "Did you buy a house in 2010?", questionnaireWidgets, frame));
+  frame.getContentPane().add(createBooleanQuestion("hasEnteredLoan", "Did you enter a loan for maintenance/reconstruction?", questionnaireWidgets, frame));
 
   updateQuestionnaire(questionnaireWidgets, frame);
 
