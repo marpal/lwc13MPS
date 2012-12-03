@@ -19,6 +19,9 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="917898825946800417">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="q3i4.917898825946797936" resolveInfo="String" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="113961188538979208">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="q3i4.113961188538979205" resolveInfo="Boolean" />
+    </node>
   </roots>
   <root id="917898825946774097">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="917898825946789651">
@@ -75,6 +78,11 @@
   <root id="917898825946800417">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="917898825946800420">
       <property name="text" nameId="tpc2.1073389577007" value="string" />
+    </node>
+  </root>
+  <root id="113961188538979208">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="113961188538979210">
+      <property name="text" nameId="tpc2.1073389577007" value="boolean" />
     </node>
   </root>
 </model>

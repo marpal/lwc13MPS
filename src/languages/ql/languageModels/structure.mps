@@ -29,6 +29,10 @@
       <property name="name" nameId="tpck.1169194664001" value="String" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="917898825946773670" resolveInfo="Type" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="113961188538979205">
+      <property name="name" nameId="tpck.1169194664001" value="Boolean" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="917898825946773670" resolveInfo="Type" />
+    </node>
   </roots>
   <root id="917898825946650079">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="917898825946661687">
@@ -78,6 +82,12 @@
   <root id="917898825946797936">
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="917898825946800477">
       <property name="value" nameId="tpce.1105725733873" value="string" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="113961188538979205">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="113961188538979207">
+      <property name="value" nameId="tpce.1105725733873" value="boolean" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
   </root>
