@@ -56,6 +56,16 @@
           </node>
         </node>
       </node>
+      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.ConditionalBlock" typeId="q3i4.4395333163361697423" id="8963402510427914000">
+        <node role="condition" roleId="q3i4.4395333163361697425" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="8963402510427914001" />
+        <node role="body" roleId="q3i4.4395333163361697426" type="q3i4.Block" typeId="q3i4.8643211149799186884" id="8963402510427914002">
+          <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="8963402510427914003">
+            <property name="name" nameId="tpck.1169194664001" value="bla" />
+            <property name="label" nameId="q3i4.917898825946661686" value="Blah?" />
+            <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Boolean" typeId="q3i4.113961188538979205" id="8963402510427914005" />
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>
