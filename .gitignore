@@ -3,6 +3,8 @@
 *.history
 *.class
 *.swp
+*.swo
+*.swn
 
 # * languages
 src/languages/*/classes_gen
