@@ -35,10 +35,15 @@ public class Questionnaire {
   }
 
     public void updateQuestionnaire() {
+      // if (hasSoldHouse) { }
       questionnaireWidgets.get("block").setVisible(((JCheckBox)questionnaireWidgets.get("hasSoldHouse")).isSelected() ? true : false);
+
+      // just to make sure that we don't get weird numbers in the calculated value
       if (
           !((JTextField)questionnaireWidgets.get("houseSoldPrice")).getText().trim().equals("") && 
           !((JTextField)questionnaireWidgets.get("privateDebts")).getText().trim().equals("")) {
+	
+	// valueResidue = houseSoldPrice - privateDebts
         int houseSoldPrice = Integer.parseInt(((JTextField)questionnaireWidgets.get("houseSoldPrice")).getText().trim());
         int privateDebts = Integer.parseInt(((JTextField)questionnaireWidgets.get("privateDebts")).getText().trim());
         ((JLabel)questionnaireWidgets.get("valueResidue")).setText(new Integer(houseSoldPrice - privateDebts).toString());
