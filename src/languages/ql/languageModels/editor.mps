@@ -28,6 +28,9 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4395333163361697427">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="q3i4.4395333163361697423" resolveInfo="ConditionalBlock" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1785499535625993293">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="q3i4.1785499535625990009" resolveInfo="QuestionReference" />
+    </node>
   </roots>
   <root id="917898825946774097">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="917898825946789651">
@@ -122,6 +125,17 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4395333163361697439">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="q3i4.4395333163361697426" />
+      </node>
+    </node>
+  </root>
+  <root id="1785499535625993293">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="1785499535625993296">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="q3i4.1785499535625990011" />
+      <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="1785499535625993297">
+        <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1785499535625993299">
+          <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+        </node>
       </node>
     </node>
   </root>
