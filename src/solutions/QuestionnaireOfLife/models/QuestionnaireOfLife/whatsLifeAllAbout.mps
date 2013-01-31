@@ -45,6 +45,11 @@
         <property name="label" nameId="q3i4.917898825946661686" value="Did you enter a maintenance loan in 2010?" />
         <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Boolean" typeId="q3i4.113961188538979205" id="4395333163361689783" />
       </node>
+      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="7891420495526438582">
+        <property name="name" nameId="tpck.1169194664001" value="howMuchDoesYourHouseCost" />
+        <property name="label" nameId="q3i4.917898825946661686" value="How much does your house cost?" />
+        <node role="type" roleId="q3i4.917898825946661687" type="q3i4.String" typeId="q3i4.917898825946797936" id="7290388397545908977" />
+      </node>
       <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.ConditionalBlock" typeId="q3i4.4395333163361697423" id="2668213510523922717">
         <node role="body" roleId="q3i4.4395333163361697426" type="q3i4.Block" typeId="q3i4.8643211149799186884" id="2668213510523922719">
           <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="2668213510523940877">
