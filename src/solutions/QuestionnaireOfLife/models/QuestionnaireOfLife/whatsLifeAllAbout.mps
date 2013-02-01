@@ -46,14 +46,32 @@
         <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Boolean" typeId="q3i4.113961188538979205" id="4395333163361689783" />
       </node>
       <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="7891420495526438582">
-        <property name="name" nameId="tpck.1169194664001" value="howMuchDoesYourHouseCost" />
+        <property name="name" nameId="tpck.1169194664001" value="houseCost" />
         <property name="label" nameId="q3i4.917898825946661686" value="How much does your house cost?" />
         <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Integer" typeId="q3i4.917898825946790758" id="7290388397545998846" />
+      </node>
+      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="1582178472725747312">
+        <property name="name" nameId="tpck.1169194664001" value="carCost" />
+        <property name="label" nameId="q3i4.917898825946661686" value="How much does your car cost?" />
+        <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Integer" typeId="q3i4.917898825946790758" id="1582178472725747313" />
       </node>
       <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="7290388397545998852">
         <property name="name" nameId="tpck.1169194664001" value="desiredChanges" />
         <property name="label" nameId="q3i4.917898825946661686" value="What would you like to change about your house?" />
         <node role="type" roleId="q3i4.917898825946661687" type="q3i4.String" typeId="q3i4.917898825946797936" id="7290388397545998854" />
+      </node>
+      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.CalculatedValue" typeId="q3i4.1582178472725744109" id="1582178472725747308">
+        <property name="name" nameId="tpck.1169194664001" value="totalCost" />
+        <property name="label" nameId="q3i4.1582178472725744113" value="Your total" />
+        <node role="type" roleId="q3i4.1582178472725744121" type="q3i4.Integer" typeId="q3i4.917898825946790758" id="1582178472725747314" />
+        <node role="expression" roleId="q3i4.1582178472725744110" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1582178472725748876">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="q3i4.QuestionReference" typeId="q3i4.1785499535625990009" id="1582178472725748879">
+            <link role="question" roleId="q3i4.1785499535625990011" targetNodeId="1582178472725747312" resolveInfo="carCost" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="q3i4.QuestionReference" typeId="q3i4.1785499535625990009" id="1582178472725748863">
+            <link role="question" roleId="q3i4.1785499535625990011" targetNodeId="7891420495526438582" resolveInfo="houseCost" />
+          </node>
+        </node>
       </node>
       <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.ConditionalBlock" typeId="q3i4.4395333163361697423" id="2668213510523922717">
         <node role="body" roleId="q3i4.4395333163361697426" type="q3i4.Block" typeId="q3i4.8643211149799186884" id="2668213510523922719">
@@ -97,7 +115,7 @@
             <property name="value" nameId="tpee.1068580320021" value="300000" />
           </node>
           <node role="leftExpression" roleId="tpee.1081773367580" type="q3i4.QuestionReference" typeId="q3i4.1785499535625990009" id="7290388397546020348">
-            <link role="question" roleId="q3i4.1785499535625990011" targetNodeId="7891420495526438582" resolveInfo="howMuchDoesYourHouseCost" />
+            <link role="question" roleId="q3i4.1785499535625990011" targetNodeId="7891420495526438582" resolveInfo="houseCost" />
           </node>
         </node>
       </node>
