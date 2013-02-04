@@ -172,6 +172,35 @@
           </node>
         </node>
       </node>
+      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="8898037134863175115">
+        <property name="name" nameId="tpck.1169194664001" value="outside" />
+        <property name="label" nameId="q3i4.917898825946661686" value="Outside: Check me." />
+        <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Boolean" typeId="q3i4.113961188538979205" id="8898037134863175117" />
+      </node>
+      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.ConditionalBlock" typeId="q3i4.4395333163361697423" id="8898037134863175111">
+        <node role="condition" roleId="q3i4.4395333163361697425" type="q3i4.QuestionReference" typeId="q3i4.1785499535625990009" id="8898037134863175122">
+          <link role="question" roleId="q3i4.1785499535625990011" targetNodeId="8898037134863175115" resolveInfo="outside" />
+        </node>
+        <node role="body" roleId="q3i4.4395333163361697426" type="q3i4.Block" typeId="q3i4.8643211149799186884" id="8898037134863175113">
+          <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="8898037134863175123">
+            <property name="name" nameId="tpck.1169194664001" value="inside" />
+            <property name="label" nameId="q3i4.917898825946661686" value="Inside: Check me." />
+            <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Boolean" typeId="q3i4.113961188538979205" id="8898037134863175125" />
+          </node>
+        </node>
+      </node>
+      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.ConditionalBlock" typeId="q3i4.4395333163361697423" id="8898037134863175127">
+        <node role="condition" roleId="q3i4.4395333163361697425" type="q3i4.QuestionReference" typeId="q3i4.1785499535625990009" id="8898037134863175130">
+          <link role="question" roleId="q3i4.1785499535625990011" targetNodeId="8898037134863175123" resolveInfo="inside" />
+        </node>
+        <node role="body" roleId="q3i4.4395333163361697426" type="q3i4.Block" typeId="q3i4.8643211149799186884" id="8898037134863175129">
+          <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="8898037134863175147">
+            <property name="name" nameId="tpck.1169194664001" value="shouldNotSeeWhenInsideFoldedIn" />
+            <property name="label" nameId="q3i4.917898825946661686" value="If Outside unchecked you should not see me." />
+            <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Boolean" typeId="q3i4.113961188538979205" id="8898037134863175149" />
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>
