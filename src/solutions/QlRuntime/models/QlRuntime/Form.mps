@@ -196,13 +196,15 @@
               </node>
             </node>
           </node>
-          <node role="condition" roleId="tpee.1068580123160" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1082147046874445713">
-            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1082147046874445704" resolveInfo="isCalculated" />
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.NotExpression" typeId="tpee.1081516740877" id="1082147046874481944">
+            <node role="expression" roleId="tpee.1081516765348" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1082147046874481945">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1082147046874445704" resolveInfo="isUserDefined" />
+            </node>
           </node>
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1082147046874445704">
-        <property name="name" nameId="tpck.1169194664001" value="isCalculated" />
+        <property name="name" nameId="tpck.1169194664001" value="isUserDefined" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1082147046874445705" />
       </node>
     </node>
@@ -226,7 +228,7 @@
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1082147046874445760">
-        <property name="name" nameId="tpck.1169194664001" value="isCalculated" />
+        <property name="name" nameId="tpck.1169194664001" value="isUserDefined" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1082147046874445762" />
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1082147046874373477" />
@@ -252,8 +254,10 @@
               </node>
             </node>
           </node>
-          <node role="condition" roleId="tpee.1068580123160" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1082147046874445768">
-            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1082147046874445760" resolveInfo="isCalculated" />
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.NotExpression" typeId="tpee.1081516740877" id="1082147046874481974">
+            <node role="expression" roleId="tpee.1081516765348" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1082147046874481975">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1082147046874445760" resolveInfo="isUserDefined" />
+            </node>
           </node>
         </node>
       </node>
@@ -275,7 +279,7 @@
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1082147046874445730">
-        <property name="name" nameId="tpck.1169194664001" value="isCalculated" />
+        <property name="name" nameId="tpck.1169194664001" value="isUserDefined" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1082147046874445732" />
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1082147046874373486" />
@@ -301,8 +305,10 @@
               </node>
             </node>
           </node>
-          <node role="condition" roleId="tpee.1068580123160" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1082147046874445756">
-            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1082147046874445730" resolveInfo="isCalculated" />
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.NotExpression" typeId="tpee.1081516740877" id="1082147046874481970">
+            <node role="expression" roleId="tpee.1081516765348" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1082147046874481971">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1082147046874445730" resolveInfo="isUserDefined" />
+            </node>
           </node>
         </node>
       </node>

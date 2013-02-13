@@ -173,7 +173,7 @@
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
         </node>
         <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874379370">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874361775" resolveInfo="BooleanQuestion" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874361775" resolveInfo="BooleanValue" />
         </node>
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1785499535626105506">
@@ -183,7 +183,7 @@
             <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
           </node>
           <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874379388">
-            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874361775" resolveInfo="BooleanQuestion" />
+            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874361775" resolveInfo="BooleanValue" />
           </node>
         </node>
       </node>
@@ -197,7 +197,7 @@
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
         </node>
         <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874421067">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373483" resolveInfo="IntegerQuestion" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373483" resolveInfo="IntegerValue" />
         </node>
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7290388397545978828">
@@ -207,7 +207,7 @@
             <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
           </node>
           <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874421068">
-            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373483" resolveInfo="IntegerQuestion" />
+            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373483" resolveInfo="IntegerValue" />
           </node>
         </node>
       </node>
@@ -221,7 +221,7 @@
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
         </node>
         <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874439612">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373474" resolveInfo="StringQuestion" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373474" resolveInfo="StringValue" />
         </node>
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7290388397545963470">
@@ -231,7 +231,7 @@
             <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
           </node>
           <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874439628">
-            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373474" resolveInfo="StringQuestion" />
+            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373474" resolveInfo="StringValue" />
           </node>
         </node>
       </node>
@@ -1016,13 +1016,13 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="113961188539237202">
             <property name="name" nameId="tpck.1169194664001" value="cb" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874379403">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874361775" resolveInfo="BooleanQuestion" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874361775" resolveInfo="BooleanValue" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="113961188539237205">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="113961188539237207">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874361777" resolveInfo="BooleanQuestion" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874361777" resolveInfo="BooleanValue" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874445958">
-                  <property name="value" nameId="tpee.1068580123138" value="false" />
+                  <property name="value" nameId="tpee.1068580123138" value="true" />
                 </node>
               </node>
             </node>
@@ -1190,16 +1190,16 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7290388397545932375">
             <property name="name" nameId="tpck.1169194664001" value="tf" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874439643">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373474" resolveInfo="StringQuestion" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373474" resolveInfo="StringValue" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7290388397545932394">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="7290388397545933934">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874373476" resolveInfo="StringQuestion" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874373476" resolveInfo="StringValue" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7290388397545933939">
                   <property name="value" nameId="tpee.1070475926801" value="        " />
                 </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874446004">
-                  <property name="value" nameId="tpee.1068580123138" value="false" />
+                  <property name="value" nameId="tpee.1068580123138" value="true" />
                 </node>
               </node>
             </node>
@@ -1446,16 +1446,16 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7290388397545974911">
             <property name="name" nameId="tpck.1169194664001" value="tf" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874421069">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373483" resolveInfo="IntegerQuestion" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373483" resolveInfo="IntegerValue" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7290388397545974913">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="7290388397545974914">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874373485" resolveInfo="IntegerQuestion" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874373485" resolveInfo="IntegerValue" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7290388397545974915">
                   <property name="value" nameId="tpee.1070475926801" value="        " />
                 </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874446031">
-                  <property name="value" nameId="tpee.1068580123138" value="false" />
+                  <property name="value" nameId="tpee.1068580123138" value="true" />
                 </node>
               </node>
             </node>
@@ -1700,14 +1700,12 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1582178472725764426">
             <property name="name" nameId="tpck.1169194664001" value="value" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874457945">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874361775" resolveInfo="BooleanQuestion" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874361775" resolveInfo="BooleanValue" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1582178472725764445">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1582178472725764451">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874361777" resolveInfo="BooleanQuestion" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874457992">
-                  <property name="value" nameId="tpee.1068580123138" value="true" />
-                </node>
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874361777" resolveInfo="BooleanValue" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874457992" />
               </node>
             </node>
           </node>
@@ -1815,15 +1813,13 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="8898037134863017023">
             <property name="name" nameId="tpck.1169194664001" value="value" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874458008">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373483" resolveInfo="IntegerQuestion" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373483" resolveInfo="IntegerValue" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8898037134863017025">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8898037134863017026">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874373485" resolveInfo="IntegerQuestion" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874373485" resolveInfo="IntegerValue" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1082147046874458194" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874458265">
-                  <property name="value" nameId="tpee.1068580123138" value="true" />
-                </node>
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874458265" />
               </node>
             </node>
           </node>
@@ -1931,17 +1927,15 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="8898037134863017073">
             <property name="name" nameId="tpck.1169194664001" value="value" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1082147046874458281">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373474" resolveInfo="StringQuestion" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ie5j.1082147046874373474" resolveInfo="StringValue" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8898037134863017075">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8898037134863017076">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874373476" resolveInfo="StringQuestion" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874373476" resolveInfo="StringValue" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1082147046874458343">
                   <property name="value" nameId="tpee.1070475926801" value="" />
                 </node>
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874458385">
-                  <property name="value" nameId="tpee.1068580123138" value="true" />
-                </node>
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1082147046874458385" />
               </node>
             </node>
           </node>
