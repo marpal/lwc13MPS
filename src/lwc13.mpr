@@ -7,6 +7,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/ql/ql.mpl" folder="" />
+      <modulePath path="${project}/solutions/QlRuntime/QlRuntime.msd" folder="" />
       <modulePath path="${project}/solutions/QuestionnaireOfLife/QuestionnaireOfLife.msd" folder="" />
     </projectModules>
     <genConfs />
