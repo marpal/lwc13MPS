@@ -11,6 +11,7 @@
       </models>
       <external-templates />
       <dependencies>
+        <dependency reexport="false">42400c4c-1744-4e11-ba25-ed57b606a7ab(QlRuntime)</dependency>
         <dependency reexport="false">91226321-4f88-4441-9d12-6ac6527c0722(ql)</dependency>
       </dependencies>
       <usedLanguages>
