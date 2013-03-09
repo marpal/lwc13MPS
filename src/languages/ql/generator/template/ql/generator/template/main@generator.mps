@@ -40,7 +40,7 @@
       <property name="name" nameId="tpck.1169194664001" value="reduce_update" />
     </node>
     <node type="tpf8.TemplateSwitch" typeId="tpf8.1112730859144" id="3318422825820226977">
-      <property name="name" nameId="tpck.1169194664001" value="reduce_value" />
+      <property name="name" nameId="tpck.1169194664001" value="reduce_elementdeclaration" />
     </node>
   </roots>
   <root id="113961188538982102">
@@ -514,6 +514,24 @@
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1082147046874510951">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1082147046874510955">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ie5j.1082147046874505525" resolveInfo="FormElementFactory" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8452020497432337287">
+                  <property name="value" nameId="tpee.1070475926801" value="formname" />
+                  <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="8452020497432337290">
+                    <property name="propertyName" nameId="tpck.1757699476691236117" value="value" />
+                    <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="8452020497432337293">
+                      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8452020497432337294">
+                        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8452020497432337295">
+                          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8452020497432337296">
+                            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8452020497432337297">
+                              <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+                            </node>
+                            <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8452020497432337298" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1082147046874510956">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="1082147046874510958">
                     <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="1082147046874510959">
@@ -1232,7 +1250,7 @@
             </node>
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="3318422825820387541" />
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.SwitchMacro" typeId="tpf8.1112731569622" id="3318422825820303350">
-              <link role="templateSwitch" roleId="tpf8.1112731629154" targetNodeId="3318422825820226977" resolveInfo="reduce_value" />
+              <link role="templateSwitch" roleId="tpf8.1112731629154" targetNodeId="3318422825820226977" resolveInfo="reduce_elementdeclaration" />
               <node role="sourceNodeQuery" roleId="tpf8.1168380395224" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="161664969778796329">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="161664969778796330">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="161664969778796331">
@@ -1298,7 +1316,7 @@
             </node>
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="3318422825820331332" />
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.SwitchMacro" typeId="tpf8.1112731569622" id="3318422825820331334">
-              <link role="templateSwitch" roleId="tpf8.1112731629154" targetNodeId="3318422825820226977" resolveInfo="reduce_value" />
+              <link role="templateSwitch" roleId="tpf8.1112731629154" targetNodeId="3318422825820226977" resolveInfo="reduce_elementdeclaration" />
             </node>
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3318422825820331274">
@@ -1397,7 +1415,7 @@
             </node>
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="3318422825820250124" />
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.SwitchMacro" typeId="tpf8.1112731569622" id="3318422825820250126">
-              <link role="templateSwitch" roleId="tpf8.1112731629154" targetNodeId="3318422825820226977" resolveInfo="reduce_value" />
+              <link role="templateSwitch" roleId="tpf8.1112731629154" targetNodeId="3318422825820226977" resolveInfo="reduce_elementdeclaration" />
               <node role="sourceNodeQuery" roleId="tpf8.1168380395224" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="161664969778796299">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="161664969778796300">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="161664969778796301">
@@ -1613,7 +1631,7 @@
             </node>
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="3318422825820394640" />
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.SwitchMacro" typeId="tpf8.1112731569622" id="3318422825820394642">
-              <link role="templateSwitch" roleId="tpf8.1112731629154" targetNodeId="3318422825820226977" resolveInfo="reduce_value" />
+              <link role="templateSwitch" roleId="tpf8.1112731629154" targetNodeId="3318422825820226977" resolveInfo="reduce_elementdeclaration" />
             </node>
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="3318422825820394644">
