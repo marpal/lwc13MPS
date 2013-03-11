@@ -7,27 +7,10 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="q3i4" modelUID="r:db49606d-91ef-488e-ab05-ec0c916f7ed3(ql.structure)" version="6" implicit="yes" />
   <roots>
-    <node type="q3i4.Form" typeId="q3i4.917898825946661681" id="917898825946790755">
-      <property name="name" nameId="tpck.1169194664001" value="QuestionnaireOfLife" />
-    </node>
     <node type="q3i4.Form" typeId="q3i4.917898825946661681" id="113961188538979202">
       <property name="name" nameId="tpck.1169194664001" value="HouseOwning" />
     </node>
   </roots>
-  <root id="917898825946790755">
-    <node role="body" roleId="q3i4.917898825946661683" type="q3i4.Block" typeId="q3i4.8643211149799186884" id="4395333163361690054">
-      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="4395333163361690055">
-        <property name="name" nameId="tpck.1169194664001" value="nrOfTowels" />
-        <property name="label" nameId="q3i4.917898825946661686" value="How many towels do you own?" />
-        <node role="type" roleId="q3i4.917898825946661687" type="q3i4.Integer" typeId="q3i4.917898825946790758" id="4395333163361690058" />
-      </node>
-      <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.Question" typeId="q3i4.917898825946650079" id="4395333163361690060">
-        <property name="name" nameId="tpck.1169194664001" value="meaningOfLife" />
-        <property name="label" nameId="q3i4.917898825946661686" value="What is the meaning of life, the universe and everything else?" />
-        <node role="type" roleId="q3i4.917898825946661687" type="q3i4.String" typeId="q3i4.917898825946797936" id="4395333163361690062" />
-      </node>
-    </node>
-  </root>
   <root id="113961188538979202">
     <node role="body" roleId="q3i4.917898825946661683" type="q3i4.Block" typeId="q3i4.8643211149799186884" id="4395333163361689770">
       <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.FormElement" typeId="q3i4.8643211149799161016" id="947933200581447791" />
