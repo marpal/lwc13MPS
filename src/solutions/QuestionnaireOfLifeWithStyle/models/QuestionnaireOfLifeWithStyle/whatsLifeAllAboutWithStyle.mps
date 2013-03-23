@@ -271,16 +271,29 @@
         <link role="question" roleId="2u6g.8418675792474863279" targetNodeId="4395333163361689777" resolveInfo="hasBoughtHouse" />
       </node>
       <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.WidgetStatement" typeId="2u6g.5310625304505895066" id="7394587662563509260">
-        <node role="widget" roleId="2u6g.5310625304505895068" type="2u6g.RadioButton" typeId="2u6g.5310625304505873667" id="7394587662563509262" />
+        <node role="widget" roleId="2u6g.5310625304505895068" type="2u6g.RadioButton" typeId="2u6g.5310625304505873667" id="7394587662563528334" />
+      </node>
+      <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.BackgroundColorStatement" typeId="2u6g.7394587662563561008" id="7394587662563594594">
+        <property name="color" nameId="2u6g.7394587662563563194" value="Yellow" />
       </node>
     </node>
-    <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.StylingRule" typeId="2u6g.8418675792474650530" id="7394587662563509263" />
     <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.QuestionRule" typeId="2u6g.8418675792474650535" id="7394587662563509265">
       <node role="questionReference" roleId="2u6g.8418675792474863824" type="2u6g.QuestionReference" typeId="2u6g.8418675792474863223" id="7394587662563509267">
         <link role="question" roleId="2u6g.8418675792474863279" targetNodeId="1582178472725747312" resolveInfo="carCost" />
       </node>
       <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.WidgetStatement" typeId="2u6g.5310625304505895066" id="7394587662563509268">
         <node role="widget" roleId="2u6g.5310625304505895068" type="2u6g.Range" typeId="2u6g.7394587662563428930" id="7394587662563509270" />
+      </node>
+      <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.BackgroundColorStatement" typeId="2u6g.7394587662563561008" id="7394587662563594596">
+        <property name="color" nameId="2u6g.7394587662563563194" value="Red" />
+      </node>
+    </node>
+    <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.QuestionRule" typeId="2u6g.8418675792474650535" id="4133767426328535311">
+      <node role="questionReference" roleId="2u6g.8418675792474863824" type="2u6g.QuestionReference" typeId="2u6g.8418675792474863223" id="4133767426328535313">
+        <link role="question" roleId="2u6g.8418675792474863279" targetNodeId="4395333163361689781" resolveInfo="hasMaintLoan" />
+      </node>
+      <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.WidgetStatement" typeId="2u6g.5310625304505895066" id="4133767426328535317">
+        <node role="widget" roleId="2u6g.5310625304505895068" type="2u6g.RadioButton" typeId="2u6g.5310625304505873667" id="4133767426328535319" />
       </node>
     </node>
   </root>
