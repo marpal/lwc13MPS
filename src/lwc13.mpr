@@ -6,12 +6,12 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/languages/placeholder/placeholder.mpl" folder="" />
+      <modulePath path="${project}/languages/placeholder/placeholder.mpl" />
       <modulePath path="${project}/languages/ql/ql.mpl" folder="" />
-      <modulePath path="${project}/languages/qls/qls.mpl" folder="" />
+      <modulePath path="${project}/languages/qls/qls.mpl" />
       <modulePath path="${project}/solutions/QlRuntime/QlRuntime.msd" />
       <modulePath path="${project}/solutions/QuestionnaireOfLife/QuestionnaireOfLife.msd" />
-      <modulePath path="${project}/solutions/QuestionnaireOfLifeWithStyle/QuestionnaireOfLifeWithStyle.msd" folder="" />
+      <modulePath path="${project}/solutions/QuestionnaireOfLifeWithStyle/QuestionnaireOfLifeWithStyle.msd" />
     </projectModules>
     <genConfs />
   </component>
