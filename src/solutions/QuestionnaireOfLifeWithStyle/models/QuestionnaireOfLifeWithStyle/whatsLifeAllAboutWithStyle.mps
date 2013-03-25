@@ -266,6 +266,7 @@
     </node>
   </root>
   <root id="7394587662563509256">
+    <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.StylingRule" typeId="2u6g.8418675792474650530" id="6182267496222693271" />
     <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.QuestionRule" typeId="2u6g.8418675792474650535" id="7394587662563509257">
       <node role="questionReference" roleId="2u6g.8418675792474863824" type="2u6g.QuestionReference" typeId="2u6g.8418675792474863223" id="7394587662563509259">
         <link role="question" roleId="2u6g.8418675792474863279" targetNodeId="4395333163361689777" resolveInfo="hasBoughtHouse" />
@@ -274,7 +275,7 @@
         <node role="widget" roleId="2u6g.5310625304505895068" type="2u6g.RadioButton" typeId="2u6g.5310625304505873667" id="7394587662563528334" />
       </node>
       <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.BackgroundColorStatement" typeId="2u6g.7394587662563561008" id="7394587662563594594">
-        <property name="color" nameId="2u6g.7394587662563563194" value="Yellow" />
+        <property name="color" nameId="2u6g.7394587662563563194" value="Blue" />
       </node>
     </node>
     <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.QuestionRule" typeId="2u6g.8418675792474650535" id="7394587662563509265">
@@ -296,6 +297,18 @@
         <node role="widget" roleId="2u6g.5310625304505895068" type="2u6g.RadioButton" typeId="2u6g.5310625304505873667" id="4133767426328535319" />
       </node>
     </node>
+    <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.StylingRule" typeId="2u6g.8418675792474650530" id="6182267496222741918" />
+    <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.QuestionRule" typeId="2u6g.8418675792474650535" id="6182267496222741920">
+      <node role="questionReference" roleId="2u6g.8418675792474863824" type="2u6g.QuestionReference" typeId="2u6g.8418675792474863223" id="6182267496222741922">
+        <link role="question" roleId="2u6g.8418675792474863279" targetNodeId="7290388397545998852" resolveInfo="desiredChanges" />
+      </node>
+      <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.BackgroundColorStatement" typeId="2u6g.7394587662563561008" id="6182267496222741923">
+        <property name="color" nameId="2u6g.7394587662563563194" value="Green" />
+      </node>
+    </node>
+    <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.StylingRule" typeId="2u6g.8418675792474650530" id="6182267496222711601" />
+    <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.StylingRule" typeId="2u6g.8418675792474650530" id="6182267496222584457" />
+    <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.StylingRule" typeId="2u6g.8418675792474650530" id="6182267496222584458" />
   </root>
 </model>
 
