@@ -169,13 +169,13 @@
             </node>
             <node role="helpText" roleId="q3i4.2251561461935389090" type="87nw.Text" typeId="87nw.2557074442922380897" id="2726240646375784309">
               <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2726240646375784310">
-                <property name="escapedValue" nameId="87nw.2557074442922438158" value="You indicated in " />
+                <property name="escapedValue" nameId="87nw.2557074442922438158" value="You indicated in \&quot;" />
               </node>
               <node role="words" roleId="87nw.2557074442922392302" type="q3i4.QuestionRefWord" typeId="q3i4.2726240646375761944" id="2726240646375784311">
                 <link role="question" roleId="q3i4.2726240646375761947" targetNodeId="4395333163361689777" resolveInfo="hasBoughtHouse" />
               </node>
               <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2726240646375784312">
-                <property name="escapedValue" nameId="87nw.2557074442922438158" value=" that you have bought a house.\nWe now ask you if we can congratulate you for the buy." />
+                <property name="escapedValue" nameId="87nw.2557074442922438158" value="\&quot; that you have bought a house.\nWe now ask you if we can congratulate you for the buy." />
               </node>
             </node>
           </node>
