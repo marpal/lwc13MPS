@@ -275,7 +275,7 @@
         <node role="widget" roleId="2u6g.5310625304505895068" type="2u6g.RadioButton" typeId="2u6g.5310625304505873667" id="7394587662563528334" />
       </node>
       <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.BackgroundColorStatement" typeId="2u6g.7394587662563561008" id="7394587662563594594">
-        <property name="color" nameId="2u6g.7394587662563563194" value="Blue" />
+        <property name="color" nameId="2u6g.7394587662563563194" value="blue" />
       </node>
     </node>
     <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.QuestionRule" typeId="2u6g.8418675792474650535" id="7394587662563509265">
@@ -286,7 +286,7 @@
         <node role="widget" roleId="2u6g.5310625304505895068" type="2u6g.Range" typeId="2u6g.7394587662563428930" id="7394587662563509270" />
       </node>
       <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.BackgroundColorStatement" typeId="2u6g.7394587662563561008" id="7394587662563594596">
-        <property name="color" nameId="2u6g.7394587662563563194" value="Red" />
+        <property name="color" nameId="2u6g.7394587662563563194" value="cyan" />
       </node>
     </node>
     <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.QuestionRule" typeId="2u6g.8418675792474650535" id="4133767426328535311">
@@ -301,9 +301,6 @@
     <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.QuestionRule" typeId="2u6g.8418675792474650535" id="6182267496222741920">
       <node role="questionReference" roleId="2u6g.8418675792474863824" type="2u6g.QuestionReference" typeId="2u6g.8418675792474863223" id="6182267496222741922">
         <link role="question" roleId="2u6g.8418675792474863279" targetNodeId="7290388397545998852" resolveInfo="desiredChanges" />
-      </node>
-      <node role="stylingRuleStatements" roleId="2u6g.5310625304505888034" type="2u6g.BackgroundColorStatement" typeId="2u6g.7394587662563561008" id="6182267496222741923">
-        <property name="color" nameId="2u6g.7394587662563563194" value="Green" />
       </node>
     </node>
     <node role="rules" roleId="2u6g.8418675792474650541" type="2u6g.StylingRule" typeId="2u6g.8418675792474650530" id="6182267496222711601" />
