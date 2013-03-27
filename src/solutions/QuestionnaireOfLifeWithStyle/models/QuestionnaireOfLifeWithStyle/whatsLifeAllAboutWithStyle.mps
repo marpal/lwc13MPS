@@ -107,6 +107,27 @@
       <node role="formElements" roleId="q3i4.8643211149799186886" type="q3i4.CalculatedValue" typeId="q3i4.1582178472725744109" id="8898037134863011664">
         <property name="name" nameId="tpck.1169194664001" value="tradedHouse" />
         <property name="label" nameId="q3i4.1582178472725744113" value="You traded a house" />
+        <node role="labelExpr" roleId="q3i4.947933200581537421" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3495208597724682210">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3495208597724682213">
+            <property name="value" nameId="tpee.1070475926801" value=" trade a house." />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3495208597724682168">
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3495208597724682145">
+              <property name="value" nameId="tpee.1070475926801" value="You " />
+            </node>
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3495208597724682188">
+              <node role="expression" roleId="tpee.1079359253376" type="tpee.TernaryOperatorExpression" typeId="tpee.1163668896201" id="3495208597724682171">
+                <node role="condition" roleId="tpee.1163668914799" type="q3i4.ValueExpr" typeId="q3i4.947933200581549958" id="3495208597724682175" />
+                <node role="ifTrue" roleId="tpee.1163668922816" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3495208597724682178">
+                  <property name="value" nameId="tpee.1070475926801" value="did" />
+                </node>
+                <node role="ifFalse" roleId="tpee.1163668934364" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3495208597724682179">
+                  <property name="value" nameId="tpee.1070475926801" value="did not" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="type" roleId="q3i4.1582178472725744121" type="q3i4.Boolean" typeId="q3i4.113961188538979205" id="8898037134863011667" />
         <node role="expression" roleId="q3i4.1582178472725744110" type="tpee.AndExpression" typeId="tpee.1080120340718" id="8898037134863011681">
           <node role="rightExpression" roleId="tpee.1081773367579" type="q3i4.QuestionReference" typeId="q3i4.1785499535625990009" id="8898037134863011684">
@@ -114,17 +135,6 @@
           </node>
           <node role="leftExpression" roleId="tpee.1081773367580" type="q3i4.QuestionReference" typeId="q3i4.1785499535625990009" id="8898037134863011668">
             <link role="question" roleId="q3i4.1785499535625990011" targetNodeId="4395333163361689772" resolveInfo="hasSoldHouse" />
-          </node>
-        </node>
-        <node role="labelExpr" roleId="q3i4.947933200581537421" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="947933200581556845">
-          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="947933200581556848">
-            <property name="value" nameId="tpee.1070475926801" value=" EUR" />
-          </node>
-          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="947933200581556835">
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="947933200581549954">
-              <property name="value" nameId="tpee.1070475926801" value="You traded a house for " />
-            </node>
-            <node role="rightExpression" roleId="tpee.1081773367579" type="q3i4.ValueExpr" typeId="q3i4.947933200581549958" id="947933200581556838" />
           </node>
         </node>
       </node>
@@ -165,13 +175,13 @@
             </node>
             <node role="helpText" roleId="q3i4.2251561461935389090" type="87nw.Text" typeId="87nw.2557074442922380897" id="2726240646375784309">
               <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2726240646375784310">
-                <property name="escapedValue" nameId="87nw.2557074442922438158" value="You indicated in " />
+                <property name="escapedValue" nameId="87nw.2557074442922438158" value="You indicated in \&quot;" />
               </node>
               <node role="words" roleId="87nw.2557074442922392302" type="q3i4.QuestionRefWord" typeId="q3i4.2726240646375761944" id="2726240646375784311">
                 <link role="question" roleId="q3i4.2726240646375761947" targetNodeId="4395333163361689777" resolveInfo="hasBoughtHouse" />
               </node>
               <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2726240646375784312">
-                <property name="escapedValue" nameId="87nw.2557074442922438158" value=" that you have bought a house.\nWe now ask you if we can congratulate you for the buy." />
+                <property name="escapedValue" nameId="87nw.2557074442922438158" value="\&quot; that you have bought a house.\nWe now ask you if we can congratulate you for the buy." />
               </node>
             </node>
           </node>
